@@ -1,0 +1,874 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* sec1 start */
+.sec1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./gymgirl.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 30px;
+}
+
+
+.sec1container {
+    width: 650px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.sec1 h1 {
+    font-size: 70px;
+}
+
+.sec1 p {
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.btn-primary {
+    background-color:#ffc63d;
+    font-size: 25px;
+    border: none;
+    padding: 16px 30px;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    color: #ffc63d;
+}
+
+
+.btn-outline-primary {
+    background-color:transparent;
+    font-size: 25px;
+    border: none;
+    padding: 16px 30px;  
+    border: 2px solid #ffc63d; 
+    color: white;
+    font-weight: 500;
+}
+
+.btn-outline-primary:hover {
+    background-color:#ffc63d ;
+    font-size: 25px;
+    border: none;
+    padding: 16px 30px;
+}
+
+.btn-primary-transparent {
+    background-color: transparent;
+    font-size: 25px;
+    border: none;
+    border: 2px solid #ffc63d;
+    padding: 16px 30px;
+}
+
+.btn-primary-transparent:hover {
+    background-color: #ffc63d;
+    font-size: 25px;
+    border: none;
+    padding: 16px 30px;
+    
+}
+
+
+.box-hero {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+/* sec1 end */
+
+/* sec2 start */
+
+.sec2 {
+    width: 100%;
+    height: auto;
+    background-color: #ffc63d;
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+} 
+
+.sec2box1 {
+    width: 50%;
+    height: 500px;
+    padding: 25px;
+}
+
+.sec2box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 80vh;
+}
+
+
+.sec2box2 {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+} 
+
+
+.sec2box2innerbox {
+    width: 50%;
+    height: auto;
+    line-height: 2.5;
+    padding: 20px;
+}
+
+.sec2box2innerbox h1{
+    font-size: 60px;
+}
+
+.sec2box2innerbox h3 {
+    font-size: 30px;
+}
+
+.sec2box2innerbox p {
+    font-size: 20px;
+}
+
+.sec2imagebox {
+    width: 25%;
+    height: 300px;
+    background-color: transparent;
+}
+
+.sec2imagebox3{
+    height: 400px;
+    
+}
+
+.sec2imageboxinner1 {
+    width: 100%;
+    height: 250px;
+    background-image: url(./swimming.png);
+    background-size: cover;
+}
+
+.sec2imageboxinnerboxing {
+    width: 100%;
+    height: 250px;
+    background-image: url(./boxing.png);
+    background-size: cover;
+}
+
+.sec2imageboxinneryoga {
+    width: 100%;
+    height: 250px;
+    background-image: url(./yoga.png );
+    background-size: cover;
+}
+
+.sec2imageboxinnerfitness{
+    width: 100%;
+    height: 250px;
+    background-image: url(./fitness.png );
+    background-size: cover;
+}
+
+.sec2imageboxinnerwellness{
+   width: 100%;
+    height: 250px;
+    background-image: url(./wellness.png );
+    background-size: cover;
+}
+
+
+.sec2imageboxinner2 {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    color: black;
+}
+
+/* sec2 end  */
+
+/* sec3 start */
+
+.sec3 {
+    width: 100%;
+    height: 80vh;
+    background-image: url(./dumble.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
+}
+
+
+.sec3innerbox {
+    width: 50%;
+    height: auto;
+
+}
+
+.sec3innerbox h1{
+    color: white;
+    font-size: 60px;
+}
+
+.sec3innerbox ul li{
+    color: white;
+    font-size: 25px;
+    line-height: 2;
+    list-style: none;
+    margin: 20px;
+}
+
+.sec3innerbox ul li::before {
+    content: "✅";
+}
+
+.sec3innerbox button {
+    margin-top: 40px;
+}
+
+/* sec 3 end */
+
+/* sec4 start */
+
+.sec4 {
+    width: 100%;
+    height: 100vh;
+    background-color: #ffc63d;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec4innerbox {
+    flex-basis: 18%;
+    height: 400px;
+    background-color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    line-height: 1.7;
+}
+
+
+.sec4innerbox1 {
+    flex-basis: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.sec4innerbox1 h1 {
+    font-size: 70px;
+}
+
+/* sec4 end */
+
+
+/* sec5 start */
+
+.sec5{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.sec5innerbox1 {
+    height: auto;
+    width: 50%;
+    position: relative;
+}
+
+.sec5innerbox2 {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 150px;
+}
+
+.sec5innerbox2 h1 {
+    font-size: 60px;
+}
+
+.sec5innerbox2 p{
+    font-size: 15px;
+}
+
+.yogaimg1 {
+    position: absolute;
+    left: 130px;
+    top: 110px;
+    width: 455px;
+}
+
+.yogaimg2 {
+    position: absolute;
+    left: 300px;
+    top: 300px;
+    width: 455px;
+    border: 8px solid white;
+}
+
+@media screen and (min-width: 320px) and (max-width: 578px) {
+
+    .sec1 h1 {
+       font-size: 20px;
+    }
+
+    .btn-primary {  
+      font-size: 15px;
+      padding: 10px 15px;
+    }
+
+    .btn-primary:hover {
+       font-size: 15px;
+       padding: 10px 15px;
+    }
+
+    .btn-outline-primary {
+        background-color:transparent;
+        font-size: 15px;
+        border: none;
+        padding: 10px 15px;  
+    }
+
+    .btn-outline-primary:hover { 
+        padding: 10px 15px;
+        font-size: 15px;
+    }   
+
+    .sec2box1 {
+       width: 100%;
+       height: auto;
+       padding: 25px;
+    }
+
+    .sec2imagebox {
+       width: 100%;
+       height: 300px;
+       background-color: transparent;
+    }
+
+    .sec2box2 {
+       width: 100%;
+       height: auto;
+       display: flex;
+       justify-content: center;
+       align-items: start;
+       flex-direction: column;
+    } 
+
+
+    .sec2box2innerbox {
+       width: 100%;
+       height: auto;
+       line-height: 2.5;
+       padding: 20px;
+    }
+
+    .sec2innerbox h1 {
+        font-size: 20px;
+    }
+    
+    .sec3 {
+        height: auto;
+        padding: 10px;
+   }
+
+   .sec3 {
+         width: 100%;
+         height: auto;
+         background-image: url(./dumble.png);
+         background-size: cover ;
+         background-position-x: -300px;
+         display: flex;
+          justify-content: space-around;
+        
+    }
+   
+    .sec3innerbox h1{
+       color: white;
+        font-size: 30px;
+    }  
+
+    .sec3innerbox ul li {
+        font-size: 15px;
+    }
+
+    .sec3innerbox {
+        width: 80%;
+        height: auto;
+
+    }
+
+   .sec4innerbox1 h1 {
+     font-size: 30px;
+   }
+
+    .sec4 {
+       height: auto;
+       padding: 20px;
+    }
+}
+
+
+@media screen and (min-width: 578px) and (max-width: 768px) {
+
+    .sec1 h1 {
+       font-size: 30px;
+    }
+
+    .btn-primary {  
+      font-size: 15px;
+      padding: 10px 15px;
+    }
+
+    .btn-primary:hover {
+       font-size: 15px;
+       padding: 10px 15px;
+    }
+
+    .btn-outline-primary {
+        background-color:transparent;
+        font-size: 15px;
+        border: none;
+        padding: 10px 15px;  
+    }
+
+    .btn-outline-primary:hover { 
+        padding: 10px 15px;
+        font-size: 15px;
+    }   
+
+    .sec2box1 {
+       width: 100%;
+       height: auto;
+       padding: 25px;
+    }
+
+    .sec2imagebox {
+       width: 25%;
+       height: 300px;
+       background-color: transparent;
+    }
+
+    .sec2box2 {
+       width: 100%;
+       height: auto;
+       display: flex;
+       justify-content: center;
+       align-items: start;
+       flex-direction: column;
+    } 
+
+
+    .sec2box2innerbox {
+       width: 100%;
+       height: auto;
+       line-height: 2.5;
+       padding: 20px;
+    }
+     
+    .sec3 {
+        height: auto;
+        padding: 40px;
+    }
+
+    .sec4innerbox1 h1 {
+     font-size: 30px;
+   }
+
+    .sec4 {
+       height: auto;
+       padding: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    .sec1 h1 {
+       font-size: 30px;
+    }
+
+    .btn-primary {  
+      font-size: 15px;
+      padding: 10px 15px;
+    }
+
+    .btn-primary:hover {
+       font-size: 15px;
+       padding: 10px 15px;
+    }
+
+    .btn-outline-primary {
+        background-color:transparent;
+        font-size: 15px;
+        border: none;
+        padding: 10px 15px;  
+    }
+
+    .btn-outline-primary:hover { 
+        padding: 10px 15px;
+        font-size: 15px;
+    }   
+
+    .sec2box1 {
+       width: 100%;
+       height: auto;
+       padding: 25px;
+    }
+
+    .sec2imagebox {
+       width: 50%;
+       height: 300px;
+       background-color: transparent;
+    }
+
+    .sec2box2 {
+       width: 100%;
+       height: auto;
+       display: flex;
+       justify-content: center;
+       align-items: start;
+       flex-direction: column;
+    } 
+
+
+    .sec2box2innerbox {
+       width: 100%;
+       height: auto;
+       line-height: 2.5;
+       padding: 20px;
+    }
+    
+    .sec3 {
+        height: auto;
+        padding: 40px;
+    }
+
+    .sec4innerbox1 h1 {
+       font-size: 40px;
+    }
+
+    .sec4 {
+       height: auto;
+       padding: 20px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .sec1 h1 {
+       font-size: 30px;
+    }
+     
+    .sec1 {
+      width: 100%;
+      height: 100vh;
+      background-image: url(./gymgirl.png);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      
+
+    }
+
+    .btn-primary {  
+      font-size: 15px;
+      padding: 10px 15px;
+    }
+
+    .btn-primary:hover {
+       font-size: 15px;
+       padding: 10px 15px;
+       border: 2px solid #ffc63d;
+    }
+
+    .btn-outline-primary {
+        background-color:transparent;
+        font-size: 15px;
+        border: none;
+        padding: 10px 15px;  
+    }
+
+    .btn-outline-primary:hover { 
+        padding: 10px 15px;
+        font-size: 15px;
+    }   
+
+    .sec2box1 {
+       width: 100%;
+       height: auto;
+       padding: 25px;
+       flex-direction: row;
+    }
+
+    .sec2imagebox {
+       width: 20%;
+       height: 300px;
+       background-color: transparent;
+    }
+
+    .sec2box2 {
+       width: 100%;
+       height: auto;
+       display: flex;
+       justify-content: center;
+       align-items: start;
+       flex-direction: column;
+       text-align: center;
+    } 
+     
+    
+
+    .sec2box2innerbox {
+       width: 100%;
+       height: auto;
+       line-height: 2.5;
+       padding: 20px;
+    }
+     
+    .sec3 {
+        height: auto;
+        padding: 40px;
+    }
+
+    .sec4innerbox1 h1 {
+       font-size: 40px;
+    }
+
+    .sec4 {
+       height: auto;
+       padding: 20px;
+    }
+
+    .yogaimg1 {
+       position: absolute;
+       left: 130px;
+       top: 110px;
+       width: 455px;
+    }
+
+    .yogaimg2 {
+       position: absolute;
+       left: 300px;
+       top: 300px;
+       width: 455px;
+       border: 8px solid white;
+    }
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+
+    .sec1 h1 {
+       font-size: 30px;
+    }
+     
+    .sec1 {
+      width: 100%;
+      height: 100vh;
+      background-image: url(./gymgirl.png);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      padding: 30px;
+     } 
+
+
+    .btn-primary {  
+      font-size: 15px;
+      padding: 10px 15px;
+    }
+
+    .btn-primary:hover {
+       font-size: 15px;
+       padding: 10px 15px;
+       border: 2px solid #ffc63d;
+    }
+
+    .btn-outline-primary {
+        background-color:transparent;
+        font-size: 15px;
+        border: none;
+        padding: 10px 15px;  
+    }
+
+    .btn-outline-primary:hover { 
+        padding: 10px 15px;
+        font-size: 15px;
+    }   
+
+    .sec2box1 {
+       width: 100%;
+       height: auto;
+       padding: 25px;
+       flex-direction: row;
+    }
+
+    .sec2imagebox {
+       width: 20%;
+       height: 300px;
+       background-color: transparent;
+    }
+
+    .sec2box2 {
+       width: 100%;
+       height: auto;
+       display: flex;
+       justify-content: center;
+       align-items: start;
+       flex-direction: column;
+       text-align: center;
+    } 
+     
+    
+
+    .sec2box2innerbox {
+       width: 100%;
+       height: auto;
+       line-height: 2.5;
+       padding: 20px;
+    }
+     
+    .sec3 {
+        height: auto;
+        padding: 40px;
+    }
+
+    .sec4innerbox1 h1 {
+       font-size: 40px;
+    }
+
+    .sec4 {
+       height: auto;
+       padding: 20px;
+    }
+
+    .yogaimg1 {
+       width: 400px;
+
+    }
+
+    .yogaimg2 {
+       width: 400px;
+    }
+
+}
+
+
+@media screen and (min-width: 1400px) and (max-width: 1800px) {
+
+    .sec1 h1 {
+       font-size: 70px;
+    }
+     
+    .sec1 {
+      width: 100%;
+      height: 100vh;
+      background-image: url(./gymgirl.png);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      padding: 30px;
+    }
+
+
+    .btn-primary {  
+      font-size: 15px;
+      padding: 10px 15px;
+    }
+
+    .btn-primary:hover {
+       font-size: 15px;
+       padding: 10px 15px;
+    }
+
+    .btn-outline-primary {
+        background-color:transparent;
+        font-size: 15px;
+        border: none;
+        padding: 10px 15px;  
+    }
+
+    .btn-outline-primary:hover { 
+        padding: 10px 15px;
+        font-size: 15px;
+    }   
+
+    .sec2box1 {
+       width: 50%;
+       height: 80vh;
+       padding: 10px;
+       flex-direction: column;
+    }
+
+    .sec2imagebox {
+       width: 25%;
+       height: 300px;
+       background-color: transparent;
+
+    }
+
+    .sec2box2 {
+       width: 50%;
+       height: auto;
+       display: flex;
+       justify-content: center;
+       align-items: start;
+       flex-direction: column;
+    } 
+     
+    .sec2imagebox3 {
+        height: 400px;
+        padding: 20px;
+        width: 30%;
+        
+
+    }
+
+    .sec2box2innerbox {
+       width: 100%;
+       height: auto;
+       line-height: 2.5;
+       padding: 20px;
+    }
+    
+    .sec3 {
+        height: auto;
+        padding: 40px;
+    }
+}
