@@ -340,6 +340,16 @@
     border: 8px solid white;
 }
 
+.sec6 {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.sec6innerbox h1 {
+    color: white;
+}
+
 @media screen and (min-width: 320px) and (max-width: 578px) {
 
     .sec1 {
@@ -958,4 +968,12 @@
         height: auto;
         padding: 40px;
     }
+
+    .sec4innerbox span {
+    margin-top: 0px;
+    /* text-align: center;
+    position: relative; */
+    top: 0px;
+}
+
 }
