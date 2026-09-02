@@ -451,6 +451,7 @@
 .sec4innerbox1{
     background-color: transparent;
     height: auto;
+
 }
 
 
@@ -458,6 +459,12 @@
     font-size: 25px;
 }
 
+.sec4innerbox span {
+    margin-top: 10px;
+    text-align: center;
+    position: relative;
+    top: 5px;
+}
 }
 
 
