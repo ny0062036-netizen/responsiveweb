@@ -14,11 +14,12 @@
     align-items: center;
     color: white;
     padding: 30px;
+    background-size: 100%;
 }
 
 
 .sec1container {
-    width: 650px;
+    width: 600px;
     height: auto;
     display: flex;
     justify-content: center;
@@ -341,6 +342,15 @@
 
 @media screen and (min-width: 320px) and (max-width: 578px) {
 
+    .sec1 {
+    
+    background-size: cover;
+    background-position-x: -300px;
+    /* background-repeat: no-repeat; */
+}
+
+
+    
     .sec1 h1 {
        font-size: 20px;
     }
@@ -447,7 +457,7 @@
     text-align: center;
     line-height: 1.7;
 }
-
+ 
 .sec4innerbox1{
     background-color: transparent;
     height: auto;
@@ -465,11 +475,60 @@
     position: relative;
     top: 5px;
 }
+
+   .sec5innerbox2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.btn-primary-transparent {
+    font-size: 13px;
+    font-weight: 900;
+}
+
+
+    .yogaimg1 {
+      width: 200px;
+      left: 25px;
+      top: 10px;
+    }
+
+    .yogaimg2 {
+        width: 200px;
+        left: 60px;
+        top: 100px;
+    }
+
+
+    .sec5innerbox2 h1{
+        font-size: 15px;
+        margin-top: 100px;
+        padding: 0px;
+        
+    }
+
+    .sec5innerbox2 p {
+        font-size: 10px;
+    }
 }
 
 
 @media screen and (min-width: 578px) and (max-width: 768px) {
 
+    
+    .sec1 {
+    
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+    
     .sec1 h1 {
        font-size: 30px;
     }
@@ -539,17 +598,6 @@
        padding: 20px;
     }
 
-    .yoga1 {
-        width: 250px;
-        left: 50px;
-        /* top: 100px; */
-    }
-
-    .yoga2 {
-        width: 250px;
-        left: 150px;
-        top:  230px;
-    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -623,17 +671,6 @@
        padding: 20px;
     }
 
-    .yoga1 {
-        width: 300px;
-        left: 50px;
-        /* top: 100px; */
-    }
-
-    .yoga2 {
-        width: 300px;
-        left: 150px;
-        top: 250px;
-    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
